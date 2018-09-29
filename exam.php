@@ -104,4 +104,4 @@ echo "\n";
 /**
  * Credit
  */
-echo "Program dibuat dengan bahasa PHP oleh Rif";
+echo "Program dibuat dengan bahasa PHP oleh @reefebba";
