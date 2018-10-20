@@ -1,14 +1,16 @@
 <?php 
 
+// mencetak
+
 echo "“==>> Selamat datang di Program Input Nilai Ujian <<==”\n";
 
 // Siapkan array
 $arrSiswa = [];
 
-// Program input data
+// Program menginput data
 do {
 	echo "Masukkan Nama Peserta : ";
-	$name = ucWords(trim(fgets(STDIN)));
+	$name = ucwords(trim(fgets(STDIN)));
 	
 	echo "Masukkan Nilai $name : ";
 	$nilai = floatval(trim(fgets(STDIN)));
@@ -16,7 +18,7 @@ do {
 	$confirm = "Nilai $name adalah $nilai \n";
 	echo $confirm;
 
-	// Masukkan data ke array
+	// Masukkan data ke dalam array
 	$arrSiswa[$name] = $nilai;
 
 	echo "Lanjutkan? [Y/N] : ";
